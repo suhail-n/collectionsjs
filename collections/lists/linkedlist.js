@@ -128,7 +128,6 @@ class LinkedList{
     }
 
     //reverse linkedlist
-    // 1 > 2 > 3 > 4 > null
     reverse(){
         if(!this.head || this.length === 1) return;
         let curN = this.head;
