@@ -31,9 +31,6 @@ class Stack {
     }
     this.head = this.head.next;
     this.length--;
-    if (!this.head) {
-      this.tail = null;
-    }
     poppedN.next = null;
     return val;
   }
