@@ -26,10 +26,10 @@ class Queue {
         if (!this.head) return null;
         let popped = this.head;
         let poppedVal = popped.val;
-        this.head = this.head.next;
-        if (!this.head) {
+        if (this.head === this.tail) {
             this.tail = null;
         }
+        this.head = this.head.next;
         popped.next = null;
         this.size--
         return poppedVal;
