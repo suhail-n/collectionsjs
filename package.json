@@ -1,0 +1,23 @@
+{
+  "name": "collectionsjs",
+  "version": "1.0.0",
+  "description": "Data structures in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./test/**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhail-n/collectionsjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhail-n/collectionsjs/issues"
+  },
+  "homepage": "https://github.com/suhail-n/collectionsjs#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
